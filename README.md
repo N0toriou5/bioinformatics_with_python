@@ -3,7 +3,7 @@ Bioinformatics with Python contains worked examples coming from the book by Tiag
 
 ## Folders
 ### conda_envs
-This folder contains useful conda environments for different bioinformatics tasks. To install a specific environment, simply download the corresponding .txt file and create your environment by running the following line of code
+This folder contains useful conda environments for different bioinformatics tasks. To install a specific environment, simply download the corresponding .txt file and create your environment by running the following line of code:
 
 ```bash
  conda create --name <environment_name> --file requirements.txt
