@@ -8,3 +8,4 @@ This folder contains useful conda environments for different bioinformatics task
 ```bash
  conda create --name <environment_name> --file requirements.txt
  ```
+## Chapters
