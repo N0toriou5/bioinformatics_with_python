@@ -10,4 +10,4 @@ numpy=1.21.3 \
 pandas=1.3.4 \
 scipy=1.7.1
 
-conda list -explicit > bioinformatics_base.txt
+conda list --explicit > bioinformatics_base.txt
