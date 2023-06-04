@@ -1,14 +1,18 @@
-conda create -n bioinformatics_base python=3.10
+conda create -n bioinformatics_base python=3.11
 conda activate bioinformatics_base
 conda config --add channels bioconda
 conda config --add channels conda-forge
-conda install biopython=1.79 \
-jupyterlab=3.2.1 \
-jupytext=1.13 \
-matplotlib=3.4.3 \
-numpy=1.21.3 \
-pandas=1.3.4 \
-scipy=1.7.1
+conda install biopython \
+jupyterlab \
+jupytext \
+jupyter \
+matplotlib \
+numpy \
+pandas \
+scipy
 
 conda list --explicit > bioinformatics_base.txt
 conda create -n bioinformatics_r --clone bioinformatics_base
+conda activate bioinformatics_r
+conda install r-ggplot2 r-lazyeval r-gridextra rpy2
+conda list --explicit > bioinformatics_r.txt
